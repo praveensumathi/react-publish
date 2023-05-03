@@ -1,7 +1,11 @@
 import React from "react";
 
 function Button() {
-  return <div>From Button Component by praveen</div>;
+  return (
+    <div>
+      <button>Click me</button>
+    </div>
+  );
 }
 
 export default Button;
